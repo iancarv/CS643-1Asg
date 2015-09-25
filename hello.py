@@ -10,7 +10,7 @@ def hello():
 @app.route("/r/",methods=['GET','POST'])
 def hello_monkey():
     """Respond to incoming calls with a simple text message."""
-    message=request.form['message']
+    message=request.form['Body']
     resp = twilio.twiml.Response()
     resp.message("You said " + message)
     return str(resp)
