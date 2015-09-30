@@ -26,11 +26,11 @@ def send_page():
 def send():
     number=request.form['number']
     message=request.form['message']
-    account_sid = "AC028a28db5c78b421cb6f2d7ce621c58b"
-    auth_token = "0d3960f5466469449b228781b54ea595"
+    account_sid = "REPLACE WITH OWN KEYS"
+    auth_token = "REPLACE WITH OWN KEYS"
     client = TwilioRestClient(account_sid, auth_token)
 
-    message = client.messages.create(to=number, from_="+16466933151",
+    message = client.messages.create(to=number, from_="REPLACE WITH OWN NUMBER",
                                      body=message)
 
     ackk= "Your message has been sent to " + number + " !!!!"
