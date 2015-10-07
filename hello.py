@@ -1,6 +1,7 @@
 from flask import Flask,request,redirect,render_template
 from twilio.rest import TwilioRestClient
 import twilio.twiml
+import random
 app = Flask(__name__)
 
 
@@ -29,7 +30,10 @@ def hello_monkey():
     """Respond to incoming calls with a simple text message."""
     message=request.form['Body']
     if(message== "Hi"):
-		message="Hello"
+        message="Hello"
+    if(message== "PROTEINS"):
+        value= random.sample(protiens,3)
+        message=value
     resp = twilio.twiml.Response()
     resp.message(message)
     return str(resp)
