@@ -28,8 +28,10 @@ def hello():
 def hello_monkey():
     """Respond to incoming calls with a simple text message."""
     message=request.form['Body']
+    if(message== "Hi"):
+		message="Hello"
     resp = twilio.twiml.Response()
-    resp.message("You said " + message)
+    resp.message(message)
     return str(resp)
 
 if __name__ == "__main__":
