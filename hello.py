@@ -33,7 +33,10 @@ def hello_monkey():
         message="Hello"
     if(message== "PROTEINS"):
         value= random.sample(protiens,3)
-        message=value
+        answer=""
+        for i in value:
+            answer=answer+i
+        message=answer
     resp = twilio.twiml.Response()
     resp.message(message)
     return str(resp)
