@@ -30,9 +30,6 @@ nutrients = {
 }
 
 
-"""Updated the array of nutrient_name above"""
-
-
 @app.route("/",methods=['GET','POST'])
 def hello():
     return "HI!"
@@ -64,8 +61,6 @@ def response_string(message):
         # message="Please enter Nutrients from FAT,CALCIUM,VITAMIN A/B/C,ZINC,FIBRE,FAT,CARBOHYDRATES,PROTEINS one at a time to receive appropiate food items"
 
     return message
-
-
 
 if __name__ == "__main__":
     app.run(debug=True)
