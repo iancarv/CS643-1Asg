@@ -27,8 +27,8 @@
       <file leaf-file-name="hello.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72017837">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.8483835">
+              <caret line="94" column="123" selection-start-line="94" selection-start-column="123" selection-end-line="94" selection-end-column="123" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -339,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72017837">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.8483835">
+          <caret line="94" column="123" selection-start-line="94" selection-start-column="123" selection-end-line="94" selection-end-column="123" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>

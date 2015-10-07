@@ -35,8 +35,64 @@ def hello_monkey():
         value= random.sample(protiens,3)
         answer=""
         for i in value:
-            answer=answer+i
+            answer=answer+i + ""
         message=answer
+    if(message== "CARBOHYDRATES"):
+        value= random.sample(carbohydrates,3)
+        answer=""
+        for i in value:
+            answer=answer+i+ ""
+        message=answer
+    if(message== "FIBRE"):
+        value= random.sample(fibre,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "FAT"):
+        value= random.sample(fat,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "IRON"):
+        value= random.sample(iron,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "ZINC"):
+        value= random.sample(zinc,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "CALCIUM"):
+        value= random.sample(calcium,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "VITAMIN A"):
+        value= random.sample(vitamina,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "VITAMIN B"):
+        value= random.sample(vitaminb,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    if(message== "VITAMIN C"):
+        value= random.sample(vitaminc,3)
+        answer=""
+        for i in value:
+            answer=answer+i + ""
+        message=answer
+    else:
+        message="Please enter Nutrients from FAT,CALCIUM,VITAMIN A/B/C,ZINC,FIBRE,FAT,CARBOHYDRATES,PROTEINS one at a time to receive appropiate food items"
     resp = twilio.twiml.Response()
     resp.message(message)
     return str(resp)
