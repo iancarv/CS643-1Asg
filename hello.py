@@ -91,8 +91,8 @@ def hello_monkey():
         for i in value:
             answer=answer+i + ""
         message=answer
-    else:
-        message="Please enter Nutrients from FAT,CALCIUM,VITAMIN A/B/C,ZINC,FIBRE,FAT,CARBOHYDRATES,PROTEINS one at a time to receive appropiate food items"
+    # else:
+    #     message="Please enter Nutrients from FAT,CALCIUM,VITAMIN A/B/C,ZINC,FIBRE,FAT,CARBOHYDRATES,PROTEINS one at a time to receive appropiate food items"
     resp = twilio.twiml.Response()
     resp.message(message)
     return str(resp)
