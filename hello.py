@@ -60,8 +60,8 @@ def response_string(message):
             else:
                 answer = answer + " " + i
         message = answer
-    else:
-        message="Please enter Nutrients from FAT,CALCIUM,VITAMIN A/B/C,ZINC,FIBRE,FAT,CARBOHYDRATES,PROTEINS one at a time to receive appropiate food items"
+    # else:
+        # message="Please enter Nutrients from FAT,CALCIUM,VITAMIN A/B/C,ZINC,FIBRE,FAT,CARBOHYDRATES,PROTEINS one at a time to receive appropiate food items"
 
     return message
 
