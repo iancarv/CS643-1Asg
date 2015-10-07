@@ -3,19 +3,19 @@ from twilio.rest import TwilioRestClient
 import twilio.twiml
 app = Flask(__name__)
 
-nutrient_name={
-	"protiens":['meat','fish','eggs','dairy products','nuts','seeds','legumes'],
-	"carbohydrates":['fruits','legumes','whole grains','white rice','white bread'],
-	"fibre":['fruits','whole grains','vegetables'],
-	"fat":['butter','red meat','whole milk','cheese'],
-	"iron":['lean meats','legumes','poultry','fish','beans','fish']
-	"zinc":['beef','pork','lamb','dark chicken meat','nuts','yeast','legumes','whole grains'] ,
-	"calcium":['milk','tofu','almonds','ornage juice'],
-	"vitamin A":['cheese','fish oil,carrots', 'broccoli','spinach','pumpkins','milk'],
-	"vitamin B":['avocados','bananas','beans','meat','nuts','poultry','wholegrains'],
-	"vitamin C":['orange','straberries','red pepper','broccoli']
 
-}
+protiens=['meat','fish','eggs','dairy products','nuts','seeds','legumes']
+carbohydrates=['fruits','legumes','whole grains','white rice','white bread']
+fibre=['fruits','whole grains','vegetables']
+fat=['butter','red meat','whole milk','cheese']
+iron=['lean meats','legumes','poultry','fish','beans','fish']
+zinc=['beef','pork','lamb','dark chicken meat','nuts','yeast','legumes','whole grains']
+calcium=['milk','tofu','almonds','ornage juice']
+vitamina=['cheese','fish oil,carrots', 'broccoli','spinach','pumpkins','milk']
+vitaminb=['avocados','bananas','beans','meat','nuts','poultry','wholegrains']
+vitaminc=['orange','straberries','red pepper','broccoli']
+
+
 
 """Updated the array of nutrient_name above"""
 
